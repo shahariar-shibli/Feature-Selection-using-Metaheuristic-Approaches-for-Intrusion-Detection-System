@@ -31,6 +31,7 @@ Each algorithm is implementation based on the algorithm provided in the original
 In this folder, there are two .csv files.
 1. UNSW-NB15_training-set.csv  [*contains 175341 records*]
 2. UNSW-NB15_testing-set.csv   [*contains 82332 records*]
+
 The UNSW-NB15 dataset (Moustafa and Slay, 2016) was generated using an IXIA PerfectStorm program. The
 tcpdump program was used to record 100 GB of raw network data (pcap files). Each pcap file is 1000 MB in size to
 facilitate packet analysis. To create 49 features with the class label, Argus and Bro-IDS approaches were utilized, and
