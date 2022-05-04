@@ -25,7 +25,7 @@ Each algorithm is implementation based on the algorithm provided in the original
 
 *functionHo.py has two functions:*
 1. fun() -> calculates the fitness score
-2. error_rate  -> contains the machine learning model for fitness evaluation
+2. error_rate()  -> contains the machine learning model for fitness evaluation
 
 # datasets
 In this folder, there are two .csv files.
