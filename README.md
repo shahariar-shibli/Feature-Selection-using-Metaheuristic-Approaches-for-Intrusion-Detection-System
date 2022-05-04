@@ -1,22 +1,23 @@
 # Feature-Selection-using-Metaheuristic-Approaches-for-Intrusion-Detection-System
 
-There are two folders in the repository:
+*There are two folders in the repository:*
 1. MH_Algorithms
 2. datasets
 
-There is one python notebook in the repository:
+*There is one python notebook in the repository:*
 Feature_Selection_Notebook.ipynb , this is the main file which performs data processing, feature selection and classification for this study.
 
 # MH_Algorithms
 In this folder, there are five python (.py) files.
-1. de.py [contains the implementation of the differential evolution]
-2. fpa.py [contains the implementation of the flower pollination algorithm]
-3. pso.py [contains the implementation of the particle swarm optimization]
-4. sca.py [contains the implementation of the sine cosine algorithm]
-5. functionHO.py  [contains the implementation of fitness function for this study]
+1. de.py [*contains the implementation of the differential evolution*]
+2. fpa.py [*contains the implementation of the flower pollination algorithm*]
+3. pso.py [*contains the implementation of the particle swarm optimization*]
+4. sca.py [*contains the implementation of the sine cosine algorithm*]
+5. functionHO.py  [*contains the implementation of fitness function for this study*]
 
 Each algorithm is implementation based on the algorithm provided in the original research paper.
-Each of the four algorithms has four functions in their implementation:
+
+*Each of the four algorithms has four functions in their implementation:*
 1. init_position() -> generates initial population with floating point values for the problem
 2. binary_conversion() -> converts the initial population vector into a binary (0/1) vector
 3. jfs() -> contains the main algorithm implementation
@@ -28,8 +29,8 @@ Each of the four algorithms has four functions in their implementation:
 
 # datasets
 In this folder, there are two .csv files.
-1. UNSW-NB15_training-set.csv  [contains 175341 records]
-2. UNSW-NB15_testing-set.csv   [contains 82332 records]
+1. UNSW-NB15_training-set.csv  [*contains 175341 records*]
+2. UNSW-NB15_testing-set.csv   [*contains 82332 records*]
 The UNSW-NB15 dataset (Moustafa and Slay, 2016) was generated using an IXIA PerfectStorm program. The
 tcpdump program was used to record 100 GB of raw network data (pcap files). Each pcap file is 1000 MB in size to
 facilitate packet analysis. To create 49 features with the class label, Argus and Bro-IDS approaches were utilized, and
@@ -46,15 +47,16 @@ particular datapoint belongs to the attack or non-attack group.
 2. Open Feature_Selection_Notebook.ipynb with google collaboratory
 3. Run the cells one by one
 4. During run you need to - 
-    A. Hybridization:
-        a. Select first model
-		b. Update parameter values
-		c. select second model
-		d. Update parameter values
-	B. Single Run:
-	    a. Select first model
-		b. Update parameter values
-		c. No need to run second model and its subsequent cells
-	C. Fitness evaluation model:
-	    a. Select KNN / GaussianNB in functionHo.py (by default KNN)
+    1. Hybridization:
+        1. Select first model
+		2. Update parameter values
+		3. select second model
+		4. Update parameter values
+	2. Single Run:
+	    1. Select first model
+		2. Update parameter values
+		3. No need to run second model and its subsequent cells
+	3. Fitness evaluation model:
+	    1. Select KNN / GaussianNB in functionHo.py (by default KNN)
+		2. Change parameter 'alpha' value
 		
