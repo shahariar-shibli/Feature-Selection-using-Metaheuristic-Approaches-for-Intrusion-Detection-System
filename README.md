@@ -17,14 +17,14 @@ In this folder, there are five python (.py) files.
 
 Each algorithm is implementation based on the algorithm provided in the original research paper.
 Each of the four algorithms has four functions in their implementation:
-/init_position() -> generates initial population with floating point values for the problem
-/binary_conversion() -> converts the initial population vector into a binary (0/1) vector
-/jfs() -> contains the main algorithm implementation
-/boundary() -> helps in normalization
+1. init_position() -> generates initial population with floating point values for the problem
+2. binary_conversion() -> converts the initial population vector into a binary (0/1) vector
+3. jfs() -> contains the main algorithm implementation
+4. boundary() -> helps in normalization
 
-*functionHo.py has two functions:
-/fun() -> calculates the fitness score
-/error_rate  -> contains the machine learning model for fitness evaluation
+*functionHo.py has two functions:*
+1. fun() -> calculates the fitness score
+2. error_rate  -> contains the machine learning model for fitness evaluation
 
 # datasets
 In this folder, there are two .csv files.
@@ -41,7 +41,7 @@ attack and 1 representing an attack. So, using the information at our disposal, 
 particular datapoint belongs to the attack or non-attack group.
 
 
-#How to reproduce the results
+# How to reproduce the results
 1. Copy all the folders and files in google drive
 2. Open Feature_Selection_Notebook.ipynb with google collaboratory
 3. Run the cells one by one
